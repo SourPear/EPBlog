@@ -1,0 +1,146 @@
+import type { Blog, Author, Answer } from "@/utils/constants";
+
+const BLOG_LIST: Array<Blog> = [
+  {
+    id: "1",
+    title: "ABC",
+    content: "ABC",
+    author: "id_1231",
+    star: 123,
+    like: 123,
+    unlike: 123,
+    commentNum: 12345,
+    views: 123,
+  },
+  {
+    id: "2",
+    title: "ABC",
+    content: "ABC",
+    author: "id_1231",
+    star: 123,
+    like: 123,
+    unlike: 123,
+    commentNum: 12345,
+    views: 123,
+  },
+  {
+    id: "3",
+    title: "ABC",
+    content: "ABC",
+    author: "id_1231",
+    star: 123,
+    like: 123,
+    unlike: 123,
+    commentNum: 12345,
+    views: 123,
+  },
+  {
+    id: "4",
+    title: "ABC",
+    content: "ABC",
+    author: "id_1231",
+    star: 123,
+    like: 123,
+    unlike: 123,
+    commentNum: 12345,
+    views: 123,
+  },
+  {
+    id: "5",
+    title: "ABC",
+    content: "ABC",
+    author: "id_1231",
+    star: 123,
+    like: 123,
+    unlike: 123,
+    commentNum: 12345,
+    views: 123,
+  },
+  {
+    id: "6",
+    title: "ABC",
+    content: "ABC",
+    author: "id_1231",
+    star: 123,
+    like: 123,
+    unlike: 123,
+    commentNum: 12345,
+    views: 123,
+  },
+  {
+    id: "7",
+    title: "ABC",
+    content: "ABC",
+    author: "id_1231",
+    star: 123,
+    like: 123,
+    unlike: 123,
+    commentNum: 12345,
+    views: 123,
+  },
+];
+const AUTHOR_LIST: Array<Author> = [
+  {
+    id: "1",
+    name: "布丁豆角",
+    avatar: "../assets/logo.png",
+    signature: "努力前端的靓仔",
+  },
+  {
+    id: "1",
+    name: "布丁豆角",
+    avatar: "../assets/logo.png",
+    signature: "努力前端的靓仔",
+  },
+  {
+    id: "1",
+    name: "布丁豆角",
+    avatar: "../assets/logo.png",
+    signature: "努力前端的靓仔",
+  },
+  {
+    id: "1",
+    name: "布丁豆角",
+    avatar: "../assets/logo.png",
+    signature: "努力前端的靓仔",
+  },
+  {
+    id: "1",
+    name: "布丁豆角",
+    avatar: "../assets/logo.png",
+    signature: "努力前端的靓仔",
+  },
+  {
+    id: "1",
+    name: "布丁豆角",
+    avatar: "../assets/logo.png",
+    signature: "努力前端的靓仔",
+  },
+];
+const ANSWER_LIST: Array<Answer> = [
+  {
+    like: 99,
+    title: "在 JavaScript 对象数组中按 id 查找对象",
+  },
+  {
+    like: 91,
+    title: "在 JavaScript 对象数组中按 id 查找对象",
+  },
+  {
+    like: 99,
+    title: "在 JavaScript 对象数组中按 id 查找对象",
+  },
+  {
+    like: 99,
+    title: "在 JavaScript 对象数组中按 id 查找对象",
+  },
+  {
+    like: 99,
+    title: "在 JavaScript 对象数组中按 id 查找对象",
+  },
+  {
+    like: 99,
+    title: "在 JavaScript 对象数组中按 id 查找对象",
+  },
+];
+export { BLOG_LIST, AUTHOR_LIST, ANSWER_LIST };
